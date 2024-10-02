@@ -1,0 +1,11 @@
+
+<div id="aleatorio"></div>
+<style>img{width:200px;}</style>
+<script type="text/javascript">
+  (function() {
+    // Necessário declarar a variável img 
+    var img = ["http://orig14.deviantart.net/45e6/f/2016/046/c/c/cc2df80f7717e34ef6373cb48f11196a-d9rv8ct.gif", "https://i.giphy.com/JJh1zuwzcJlQs.gif", "https://i.giphy.com/Jd7Y8GCSKKzlK.gif"];
+    var mudar = Math.floor(Math.random() * img.length);
+    document.getElementById("aleatorio").innerHTML = "<img src='" + img[mudar] + "'>";
+  })();
+</script>
